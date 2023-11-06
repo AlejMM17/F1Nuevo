@@ -58,13 +58,13 @@ nav ul li a:hover{
 
 #parrilla{
     position: absolute;
-    margin-top: 1000px;
-    margin-left: 450px;
+    margin-top: 1100px;
+    margin-left: 400px;
 }
 #parrilla2{
     position: absolute;
-    margin-top: 700px;
-    margin-left: 450px;
+    margin-top: 500px;
+    margin-left: 400px;
 }
 #fl{
     color: purple;
@@ -109,8 +109,7 @@ nav ul li a:hover{
     h1{     
         text-decoration: none;
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%) ;
+        left: 150%;
         padding: 10px;
         display: inline-block;
     
@@ -119,9 +118,8 @@ nav ul li a:hover{
     table{
         text-decoration: none;
         position: absolute;
-        left: 1%;
+        left: 150%;
         top: 25%;
-        transform: translateX(-1%);
         padding: 10px;
         display: inline-block;
         border-radius: 10px;
@@ -157,12 +155,12 @@ nav ul li a:hover{
     }
     #parrilla{
         position: absolute;
-        margin-top: 900px;
+        margin-top: 1000px;
         margin-left: 30px;
     }
     #parrilla2{
         position: absolute;
-        margin-top: 600px;
+        margin-top: 500px;
         margin-left: 30px;
     }
     #fl{
