@@ -97,7 +97,7 @@ nav ul li a:hover{
     90% {background-color: lightgreen;} 
     100%{background-color: lightsteelblue;}
     }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
     body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         animation: random 15s infinite;
