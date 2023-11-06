@@ -97,7 +97,7 @@ nav ul li a:hover{
     90% {background-color: lightgreen;} 
     100%{background-color: lightsteelblue;}
     }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 1081px){
     body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         animation: random 15s infinite;
@@ -156,12 +156,12 @@ nav ul li a:hover{
     #parrilla{
         position: absolute;
         margin-top: 1000px;
-        margin-left: 30px;
+        margin-left: 650px;
     }
     #parrilla2{
         position: absolute;
-        margin-top: 500px;
-        margin-left: 30px;
+        margin-top: 520px;
+        margin-left: 650px;
     }
     #fl{
         color: purple;
