@@ -156,12 +156,12 @@ nav ul li a:hover{
     #parrilla{
         position: absolute;
         margin-top: 1000px;
-        margin-left: 650px;
+        margin-left: 350px;
     }
     #parrilla2{
         position: absolute;
         margin-top: 520px;
-        margin-left: 650px;
+        margin-left: 350px;
     }
     #fl{
         color: purple;
