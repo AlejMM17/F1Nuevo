@@ -29,7 +29,7 @@ td img{
 table, th, td{
     padding: 1rem;
     border-collapse: collapse;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -58,6 +58,7 @@ main.table {
     margin: .8rem auto;
     border-radius: .6rem;
     overflow: auto;
+    
 }
 .table__body::-webkit-scrollbar{
     width: 0.5rem;
@@ -90,20 +91,20 @@ tbody tr:hover{
     background-color: #fff6;
 }
 
-.status{
-    background-color: red;
+#pole{
+    background-color: rgba(255, 0, 0, 0.234);
     padding: .4rem 0;
     border-radius: 2rem;
     text-align: center;
 }
-.vuelta_rapida{
-    background-color: rgb(132, 0, 255);
+#fl{
+    background-color: rgba(132, 0, 255, 0.234);
     padding: .4rem 0;
     border-radius: 2rem;
     text-align: center;
 }
-.mejor{
-    background-color: rgb(255, 208, 0);
+#wc{
+    background-color: rgb(255, 208, 0,0.234);
     padding: .4rem 0;
     border-radius: 2rem;
     text-align: center;
