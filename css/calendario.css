@@ -25,3 +25,15 @@ a img:hover{
     transform: scale(1.1);
     transition: all 1s;
 }
+article {
+    text-align: center; /* Para centrar el contenido del artículo */
+}
+
+article img {
+    max-width: 60%; /* Para que la imagen sea responsive */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    margin-top: 60px;
+    background-color: rgb(24, 13, 49);
+    padding: 50px;
+    border-radius: 20px;
+}
