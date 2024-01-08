@@ -30,9 +30,7 @@ section article{
     transition-timing-function: ease-in-out;
     transition: all 1s;
 }
-a{
-    color: black;
-}
+
 section article img{
     border-radius: 10px;
     width: 350px;
@@ -54,13 +52,11 @@ animation:colores 2s infinite;
 
     
 }
-
-@keyframes colores{
-
-from{
-    color: black;;
+a{
+    color: black;
+    transition: all 0.2s;
 }
-to{
-    color: rgb(255, 255, 255);;
-}
+
+a:hover{
+    color: white;
 }
