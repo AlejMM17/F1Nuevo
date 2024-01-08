@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+
+    background-image: url(../imgs/fondooscuro.png);
+    background-color: rgb(17, 17, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+td img{
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+table, th, td{
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+main.table {
+    width: 100vw;
+    height: 60vh;
+    background-color: #fff5;
+    backdrop-filter:blur(7px) ;
+    box-shadow: 0 .4rem .8 #0005 ;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+
+.table__header{
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+}
+.table__body{
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+}
+.table__body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+.table__body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+table{
+    width: 100%;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+}
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+}
+
+tbody tr:hover{
+    background-color: #fff6;
+}
+
+.status{
+    background-color: red;
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+.vuelta_rapida{
+    background-color: rgb(132, 0, 255);
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+.mejor{
+    background-color: rgb(255, 208, 0);
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+@media (max-width:1000px){
+    td:not(:first-of-type){
+        min-width: 12.1rem;
+    }
+}
+
+h1{
+    font-size: 34px;
+}
+
+body>h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 70px;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 1s;
+}
+a:hover{
+    font-size: 24px;
+
+}
+a img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
