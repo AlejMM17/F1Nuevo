@@ -120,10 +120,11 @@ h1{
 }
 
 body>h1{
-    font-size: 50px;
-    color: aliceblue;
-    margin-top: 70px;
+    margin-top:0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 a{
     color: aliceblue;
@@ -138,4 +139,9 @@ a:hover{
 a img:hover{
     transform: scale(1.1);
     transition: all 1s;
+}
+h1 #logo {
+    max-width: 150px; /* Cambiar el tamaño máximo según sea necesario */
+    width: 100%;
+    height: auto;
 }
