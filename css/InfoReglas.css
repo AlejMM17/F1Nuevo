@@ -1,0 +1,16 @@
+section{
+    margin-left: 25%;
+    align-self: center;    
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 165, 165);
+    width: 50%;    
+    font-size: 18px;
+    padding: 5px 0 10px 10px;
+}
+body{
+    
+    background-image: url(../imgs/fondooscuro.png);
+    background-color: rgb(17, 17, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
