@@ -41,7 +41,6 @@ main.table {
     backdrop-filter:blur(7px) ;
     box-shadow: 0 .4rem .8 #0005 ;
     border-radius: .8rem;
-    overflow: hidden;
 }
 
 
@@ -79,8 +78,8 @@ main.table {
          /* Fijar el ancho de las columnas */
         border-collapse: collapse;
     }
-
-
+   
+    
 
 thead th {
     position: sticky;
@@ -116,7 +115,25 @@ tbody tr:hover{
         min-width: 12.1rem;
     }
 }
-
+/* Cambios específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Hacer que las imágenes de las celdas sean más pequeñas */
+    td img {
+      width: 18px;
+      height: 18px;
+    }
+  
+    /* Ajustar el tamaño de la fuente para dispositivos móviles */
+    h1 {
+      font-size: 24px;
+    }
+  
+    /* Ajustar el ancho de las celdas */
+    td:not(:first-of-type) {
+      min-width: 8rem;
+      font-size: 12px; /* Reducir el tamaño de la fuente para celdas en dispositivos móviles */
+    }
+  }
 h1{
     font-size: 34px;
 }
