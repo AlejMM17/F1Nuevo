@@ -5,14 +5,13 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-h1{
-    margin-top:0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+h1 #logo {/*Configuracion logotipo*/
+    max-width: 150px; /* Cambiar el tamaño máximo según sea necesario */
+    width: 100%;
+    height: auto;
 }
-a{
+a{/*e aqui hasta abahoConfiguracion de link y foto para volver atras*/
     color: aliceblue;
     text-decoration: none;
     font-size: 22px;
@@ -22,12 +21,18 @@ a:hover{
     font-size: 24px;
 
 }
-img:hover{
+a img:hover{
     transform: scale(1.1);
     transition: all 1s;
 }
-h1 #logo {
-    max-width: 200px; /* Cambiar el tamaño máximo según sea necesario */
-    width: 100%;
-    height: auto;
+body>h1{
+    margin-top:0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.empty-space {
+    height: 100px; /* Ajusta la altura según tu preferencia */
+}
+

@@ -43,3 +43,6 @@ h1 #logo {
     width: 100%;
     height: auto;
 }
+.empty-space {
+    height: 100px; /* Ajusta la altura según tu preferencia */
+}
