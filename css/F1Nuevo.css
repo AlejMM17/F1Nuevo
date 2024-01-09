@@ -66,6 +66,28 @@ a{
 a:hover{
     color: white;
 }
-.empty-space {
-    height: 100px; /* Ajusta la altura según tu preferencia */
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 4%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column; /* Cambiar la dirección a columna para apilar los elementos */
+        align-items: center; /* Centrar los elementos */
+    }
+
+    section article {
+        width: 100%; /* Ocupar todo el ancho disponible */
+        max-width: 350px; /* Establecer un ancho máximo */
+        margin: 10px 0; /* Ajustar los márgenes */
+        padding: 20px;
+        text-align: center; /* Centrar el texto */
+    }
+
+    section article img {
+        width: 100%; /* Ajustar el ancho de la imagen */
+        height: auto; /* Altura automática para mantener la proporción */
+        border-radius: 10px;
+    }
 }
